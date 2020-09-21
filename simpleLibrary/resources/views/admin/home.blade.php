@@ -37,8 +37,8 @@
     </div>
     {{-- end sidebar --}}
     {{-- content --}}
-    <div class="comntent">
-
+    <div class="content">
+        @yield('content')
     </div>
     {{-- end content --}}
     </body>
