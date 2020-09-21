@@ -97,3 +97,51 @@ header {
 .sidebar i {
     padding-right: 20px;
 }
+
+label #sidebar-btn {
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+}
+
+label #sidebar-btn:hover {
+    color: #19b3d3;
+}
+
+#check:checked~.sidebar {
+    left: -190px;
+}
+
+#check:checked~.sidebar a span {
+    display: none;
+}
+
+#check:checked~.sidebar a {
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
+}
+
+.content {
+    position: fixed;
+    margin-left: 250px;
+    /* background: url(../images/1.jpg) no-repeat; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transform: 0.5s;
+}
+
+#check:checked~.content {
+    margin-left: 60px;
+}
+
+#check {
+    display: none;
+}
