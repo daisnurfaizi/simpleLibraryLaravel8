@@ -34,5 +34,10 @@
         <a href="#"><i class="fas fa-tasks"></i><span>Settings</span></a>
     </div>
     {{-- end sidebar --}}
+    {{-- content --}}
+    <div class="comntent">
+        
+    </div>
+    {{-- end content --}}
     </body>
 </html>
