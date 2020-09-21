@@ -24,3 +24,22 @@ header {
 .left-area span {
     color: #1dc4e7;
 }
+
+.logout-btn {
+    padding: 5px;
+    background: #19b3d3;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transform: 0.5s;
+    transition-property: background;
+}
+
+.logout-btn:hover {
+    background: #0d9dbb;
+}
