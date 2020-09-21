@@ -20,6 +20,7 @@ class CreateBooksTable extends Migration
             $table->text('description');
             $table->string('cover');
             $table->timestamps();
+            $table->foreign('author_id')->references('id')->on('authors')->onUpdate('CASCADE')->onDelete('CASCADE');
         });
     }
 
