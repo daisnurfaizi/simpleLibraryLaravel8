@@ -56,6 +56,13 @@ header {
     transition-property: left;
 }
 
+.profil-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .sidebar .profil-image {
     width: 100px;
     height: 100px;
