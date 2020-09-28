@@ -1,5 +1,5 @@
 <?php
+
+use App\Http\Controllers\Admin\HomeController;
 // admin route
-Route::get('/admin', function () {
-    return view('admin.home');
-});
+Route::get('/', [HomeController::class, 'index'])->name('admin');
