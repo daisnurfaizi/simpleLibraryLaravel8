@@ -19,7 +19,7 @@ Route::get('/', function () {
 //admin view
 Route::get('/admin', function () {
     return view('admin.home');
-});
+})->name('admin');
 
 Auth::routes(['verify' => true]);
 
