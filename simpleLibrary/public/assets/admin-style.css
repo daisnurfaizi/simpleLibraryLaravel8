@@ -129,6 +129,7 @@ label #sidebar-btn:hover {
 }
 
 .content {
+    margin-top: 100px;
     position: fixed;
     margin-left: 250px;
     /* background: url(../images/1.jpg) no-repeat; */
@@ -144,4 +145,12 @@ label #sidebar-btn:hover {
 
 #check {
     display: none;
+}
+
+.fill {
+    margin-top: 50px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: -1;
+
 }
